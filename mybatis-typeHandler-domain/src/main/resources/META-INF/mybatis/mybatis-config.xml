@@ -20,15 +20,11 @@
     <typeAliases>
         <package name="com.example.domain.model" />
         <package name="com.example.domain.repository" />
-<!--
         <package name="com.example.infra.mybatis.typehandler" />
--->
     </typeAliases>
 
     <typeHandlers>
-<!--
         <package name="com.example.infra.mybatis.typehandler" />
--->
     </typeHandlers>
 
 </configuration>

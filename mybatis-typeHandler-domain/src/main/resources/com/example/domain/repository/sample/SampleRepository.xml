@@ -4,8 +4,6 @@
 
 <mapper namespace="com.example.domain.repository.sample.SampleRepository">
 
-<!--
-
     <resultMap id="todoResultMap" type="Todo">
         <id property="todoId" column="todo_id" />
         <result property="todoTitle" column="todo_title" />
@@ -100,7 +98,5 @@
             todo_id = #{todoId}
     ]]>
     </select>
-
--->
 
 </mapper>
