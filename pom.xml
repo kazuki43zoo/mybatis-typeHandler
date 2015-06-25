@@ -98,6 +98,11 @@
         <dependencies>
             <dependency>
                 <groupId>${project.groupId}</groupId>
+                <artifactId>mybatis-typeHandler-common</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>${project.groupId}</groupId>
                 <artifactId>mybatis-typeHandler-domain</artifactId>
                 <version>1.0-SNAPSHOT</version>
             </dependency>
@@ -112,19 +117,6 @@
                 <version>1.0-SNAPSHOT</version>
             </dependency>
 
-            <!-- == Begin Database == -->
-<!--             <dependency> -->
-<!--                 <groupId>org.postgresql</groupId> -->
-<!--                 <artifactId>postgresql</artifactId> -->
-<!--                 <version>${postgresql.version}</version> -->
-<!--             </dependency> -->
-<!--             <dependency> -->
-<!--                 <groupId>com.oracle</groupId> -->
-<!--                 <artifactId>ojdbc7</artifactId> -->
-<!--                 <version>${ojdbc.version}</version> -->
-<!--             </dependency> -->
-            <!-- == End Database == -->
-
         </dependencies>
     </dependencyManagement>
     <properties>
@@ -136,6 +128,7 @@
     </properties>
   <modules>
     <module>mybatis-typeHandler-env</module>
+    <module>mybatis-typeHandler-common</module>
     <module>mybatis-typeHandler-domain</module>
     <module>mybatis-typeHandler-web</module>
     <module>mybatis-typeHandler-initdb</module>

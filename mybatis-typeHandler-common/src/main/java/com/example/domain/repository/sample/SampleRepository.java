@@ -1,8 +1,8 @@
 package com.example.domain.repository.sample;
 
-import com.example.domain.model.Todo;
+import com.example.domain.model.Sample;
 
 public interface SampleRepository {
 
-    Todo findOne(String todoId);
+    Sample findOne(String todoId);
 }
